@@ -1,0 +1,25 @@
+{
+  "name": "tp1_tlp3_front-back",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emiliojoa/Tp1-TLP3-front_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emiliojoa/Tp1-TLP3-front_back/issues"
+  },
+  "homepage": "https://github.com/Emiliojoa/Tp1-TLP3-front_back#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
