@@ -4,17 +4,25 @@
     margin: 0;
     padding: 20px;
 }
+input{
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 10px;
+    background: #eae6e6;
+}
 #boton{
-    display: grid;
+    display: flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
+    margin: 20px auto; /* Centrar el mensaje en la página */
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Espaciado entre el botón y el campo de texto */
+    margin-top: 10px; 
 }
 #nombre{
     display: flex;
@@ -25,7 +33,9 @@
     color: #333;
     text-align: center;
     padding: 10px;
-    margin-bottom: 10px; /* Espaciado entre el campo de texto y el botón */
+    margin: 20px auto; /* Centrar el mensaje en la página */
+    margin-bottom: 10px;
+    max-width: 400px;
 }
 .header{
     background-color: #4CAF50;
@@ -43,12 +53,23 @@
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s; /* Animación al pasar el mouse */
+    width: 80%; /* Ancho del mensaje */
+    max-width: 300px;
+    margin: 10px auto; 
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
 }
-
-#contenedor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
+#mensaje:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+h1{
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }
