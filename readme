@@ -1,0 +1,28 @@
+# Trabajo de TLP3 
+
+## Clonar el repositorio
+
+ ```bash
+        git clone <link del repositorio>
+ ```
+
+## Para iniciar el proyecto dirigete a la carpeta backend
+
+```bash
+        cd backend 
+```
+## instala las dependencias una vez ubicada en esa carpeta
+
+```bash
+        npm i 
+
+```
+## Por ultimo levanta el servidor 
+
+```bash
+        npm run dev
+
+```
+# Desde la carpeta Frontend
+
+### Dirigite al archivo index.html y ejecutado con live server
