@@ -9,7 +9,7 @@ app.use(cors())//profe en la documentacion no pide cors pero me estaba dando err
 
 app.get("/saludo/:nombre",(req,res)=>{
     const nombre=req.params.nombre;
-    res.json({mensaje:`Hola ${nombre}`})
+    res.json(`Hola ${nombre}`)
 
 })  
 
